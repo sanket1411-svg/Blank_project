@@ -175,6 +175,26 @@
     (pin "2" (uuid fe91c6de-90c1-4f98-bac0-a90c2b81f769))
   )
 
+  (symbol (lib_id "Device:C_Polarized_US") (at 158.75 91.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 908198ca-6145-4356-8137-d8d535e5be4c)
+    (default_instance (reference "C1") (unit 1) (value "C_Polarized_US") (footprint ""))
+    (property "Reference" "C1" (at 162.56 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "C_Polarized_US" (at 162.56 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 158.75 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 158.75 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 89db7827-cad8-455e-8ecb-9ba402bad9a3))
+    (pin "2" (uuid 7209c5c3-2789-4455-b9e9-cadc1e873d30))
+  )
+
   (symbol (lib_id "Device:C_Polarized_US") (at 129.54 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccdc9c70-b584-4a32-8e24-1afd9eb614b4)
@@ -202,6 +222,9 @@
   (symbol_instances
     (path "/ccdc9c70-b584-4a32-8e24-1afd9eb614b4"
       (reference "C1") (unit 1) (value "C_Polarized_US") (footprint "")
+    )
+    (path "/908198ca-6145-4356-8137-d8d535e5be4c"
+      (reference "C2") (unit 1) (value "C_Polarized_US") (footprint "")
     )
     (path "/208ec824-a215-4c9c-b4c3-1cbb604593a7"
       (reference "R1") (unit 1) (value "R_US") (footprint "")
