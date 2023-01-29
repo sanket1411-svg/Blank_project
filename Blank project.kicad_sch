@@ -155,7 +155,7 @@
   )
 
 
-  (text "Project name" (at 123.19 77.47 0)
+  (text "example change on github (was Project name)" (at 123.19 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 38960f5a-7553-43a3-a903-c49afa4a6696)
   )
